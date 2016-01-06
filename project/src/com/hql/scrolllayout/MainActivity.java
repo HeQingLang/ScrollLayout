@@ -10,6 +10,8 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		ScrollDelItem sitem = (ScrollDelItem)findViewById(R.id.sitem);
+		sitem.setBodyLayout(R.layout.item);
 	}
 
 	@Override
